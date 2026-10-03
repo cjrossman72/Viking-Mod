@@ -13,21 +13,7 @@
     ]
   },
   {
-    "name": "Wrangler",
-    "unitType": "Civilian",
-    "requiredTech": "Animal Husbandry",
-    "strength": 8,
-    "movement": 2,
-    "cost": 100,
-    "uniques": [
-      "Uncapturable",
-      "Ignores terrain cost",
-      "Can instantly construct a [Corral] improvement <by consuming this unit>"
-    ],
-    "attackSound": "nonmetalhit"
-  },
-  {
-    "name": "Voyager",
+    "name": "Exploration Ship",
     "unitType": "Melee Water",
     "movement": 4,
     "strength": 10,
@@ -43,98 +29,40 @@
     "attackSound": "nonmetalhit"
   },
   {
-    "name": "Pioneer",
-    "unitType": "Civilian",
-    "movement": 2,
-    "strength": 5,
-    "cost": 25,
-    "replaces": "Settler",
-    "uniqueTo": "Akkadia",
-    "requiredTech": "Agriculture",
-    "obsoleteTech": "Scientific Theory",
+    "name": "Birlinn",
+    "unitType": "Melee Water",
+    "movement": 4,
+    "strength": 14,
+    "cost": 60,
+    "requiredTech": "Optics",
+    "uniqueTo": "Norse-Gaels",
     "uniques": [
-      "May upgrade to [Archer] through ruins-like effects",
+      "Cannot enter ocean tiles",
       "Never appears as a Barbarian unit",
-      "Can transform to [Settler]",
-      "Never appears as a Barbarian unit"
+      "Can move after attacking"
     ],
-    "promotions": [
-      "Ignore terrain cost"
-    ],
+    "upgradesTo": "Caravel",
+    "obsoleteTech": "Astronomy",
     "attackSound": "nonmetalhit"
   },
   {
-    "name": "Fisherman",
-    "unitType": "Civilian",
-    "movement": 2,
-    "requiredTech": "Sailing",
+    "name": "Gallowglass",
+    "unitType": "Sword",
+    "movement": 3,
+    "strength": 10,
+    "cost": 40,
+    "requiredTech": "Agriculture",
+    "obsoleteTech": "Metal Casting",
+    "uniqueTo": "Norse-Gaels",
+    "replaces": "Warrior",
+    "upgradesTo": "Swordsman",
     "uniques": [
-      "Unbuildable",
-      "Can instantly construct a [Fishing Trip] improvement <by consuming this unit>",
-      "Automation is a primary action",
-      "Never appears as a Barbarian unit <hidden from users>",
-      "Unavailable <for [City-States] Civilizations> <hidden from users>",
-      "Remove [Fishing Trip] improvements from this tile <upon turn end> <hidden from users>"
+      "Ignores terrain cost"
     ],
-    "cost": 70,
+    "attackSound": "nonmetalhit",
     "civilopediaText": [
       {
-        "text": "A [Fisherman] can build a [Fishing Trip] improvement on a [Trout] or [Northern Pike] tile outside the city limits which will consume the [Fisherman]"
-      },
-      {
-        "separator": true
-      },
-      {
-        "text": "The first [Fishing Trip] improvement allows the construction of [Fish Farm]s"
-      },
-      {
-        "separator": true
-      },
-      {
-        "text": "The second [Fishing Trip] improvement allows the choice of constructing [Fish Market]s or selling the fish for [Gold]."
-      },
-      {
-        "separator": true
-      },
-      {
-        "text": "The third [Fishing Trip] improvement allows the choice of constructing [Fishery]s or selling the fish for [Gold]."
-      },
-      {
-        "separator": true
-      },
-      {
-        "text": "The fourth [Fishing Trip] improvement allows the choice of constructing a [Fisherman's Wharf] wonder or selling the fish for [Gold] and entering a Golden Age."
-      },
-      {
-        "separator": true
-      },
-      {
-        "text": "Fishing Trip",
-        "link": "Improvement/Fishing Trip"
-      },
-      {
-        "text": "Trout",
-        "link": "Resource/Trout"
-      },
-      {
-        "text": "Northern Pike",
-        "link": "Resource/Northern Pike"
-      },
-      {
-        "text": "Fish Farm",
-        "link": "Building/Fish Farm"
-      },
-      {
-        "text": "Fish Market",
-        "link": "Building/Fish Market"
-      },
-      {
-        "text": "Fishery",
-        "link": "Building/Fishery"
-      },
-      {
-        "text": "Fisherman's Wharf",
-        "link": "Wonder/Fisherman's Wharf"
+        "text": "This is an axe-wielding fierce fighter."
       }
     ]
   }

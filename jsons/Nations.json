@@ -96,5 +96,146 @@
       "Deira",
       "Bernicia"
     ]
+  },
+  {
+    "name": "Norse–Gaels",
+    "leaderName": "Sitric Silkenbeard",
+    "adjective": [
+      "Norse-Gaels"
+    ],
+    "startBias": [
+      "Coast"
+    ],
+    "preferredVictoryType": "Domination",
+    "startIntroPart1": "We inhabit many of the isles in the North Sea. We are a fierce race of peoples but will respect you if you respect us.",
+    "declaringWar": "We will slaughter you and wipe you from the face of the earth!",
+    "attacked": "You dare attack us! We will go forth to battle and defeat you!",
+    "defeated": "We bow to you who has bested our warriors.",
+    "neutralHello": "We will respect you if you respect us.",
+    "hateHello": "We are fierce warriors. Respect our might and power!",
+    "tradeRequest": "We will trade rather than raid you.",
+    "outerColor": [
+      170,
+      170,
+      230
+    ],
+    "innerColor": [
+      150,
+      0,
+      60
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "The English ",
+    "uniques": [
+      "Starts with [Sailing]",
+      "Gain control over [8] tiles [in this city] <upon founding a city>",
+      "Gain a free [Library] [in capital] <after discovering [Optics]>"
+    ],
+    "cities": [
+      "Mann",
+      "York",
+      "Galloway",
+      "Dublin",
+      "Waterford",
+      "Wexford",
+      "Cork",
+      "Limerick",
+      "Nodõr",
+      "Shetland"
+    ]
+  },
+  {
+    "name": "Finns",
+    "leaderName": "Väinämöinen",
+    "adjective": [
+      "Finnic"
+    ],
+    "startBias": [
+      "Tundra"
+    ],
+    "preferredVictoryType": "Diplomatic",
+    "startIntroPart1": "The Tundra of the north is where we make our home. We are a secluded people and won't bother you if you don't bother us.",
+    "declaringWar": "Are anger will be satisfied with your blood.",
+    "attacked": "We do not want war but if you want war, we will annihilate you.",
+    "defeated": "We do not want to perish but if is the will of the gods.",
+    "neutralHello": "Peace to you.",
+    "hateHello": "Leave us be. We want nothing to do with you.",
+    "tradeRequest": "We welcome the chance to exchange goods with you.",
+    "outerColor": [
+      255,
+      255,
+      255
+    ],
+    "innerColor": [
+      130,
+      130,
+      50
+    ],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Baltic Finnic",
+    "uniques": [
+      "Starts with [Trapping]",
+      "Gain control over [6] tiles [in this city] <upon founding a city>",
+      "[+2 Culture] from [Snow] tiles [in all cities]"
+    ],
+    "cities": [
+      "Satakunta",
+      "Tavastia",
+      "Ostrobothnia",
+      "Lapland",
+      "Karelia",
+      "Savonia",
+      "Kainuu",
+      "Tornedalia",
+      "Kven",
+      "Ingria"
+    ]
+  },
+  {
+    "name": "Rus'",
+    "leaderName": "Rurik",
+    "adjective": [
+      "Finnic"
+    ],
+    "startBias": [
+      "Plains"
+    ],
+    "preferredVictoryType": "Diplomatic",
+    "startIntroPart1": "We are a mighty peoples in Eastern Europe. We engage in piracy and also have mercenaries that serve in our military. We value trade and our lands have many valuable goods.",
+    "declaringWar": "Are anger will be satisfied with your blood.",
+    "attacked": "We do not want war but if you want war, we will annihilate you.",
+    "defeated": "We do not want to perish but if is the will of the gods.",
+    "neutralHello": "Peace to you.",
+    "hateHello": "Leave us be. We want nothing to do with you.",
+    "tradeRequest": "We welcome the chance to exchange goods with you.",
+    "outerColor": [
+      255,
+      255,
+      255
+    ],
+    "innerColor": [
+      130,
+      130,
+      50
+    ],
+    "favoredReligion": "Islam",
+    "uniqueName": "Baltic Finnic",
+    "uniques": [
+      "Starts with [Trapping]",
+      "Gain control over [6] tiles [in this city] <upon founding a city>",
+      "[+2 Culture] from [Snow] tiles [in all cities]"
+    ],
+    "cities": [
+      "Novgorod",
+      "Ladoga",
+      "Lovogard",
+      "Beloozero",
+      "Chernigov",
+      "Kiev",
+      "Bulgar",
+      "Gardariki",
+      "Dnieper",
+      "Dniester"
+    ]
   }
 ]

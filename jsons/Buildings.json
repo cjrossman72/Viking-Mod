@@ -1,30 +1,5 @@
 [
   {
-    "name": "Palace",
-    "isNationalWonder": true,
-    "production": 3,
-    "science": 3,
-    "gold": 3,
-    "culture": 1,
-    "cityStrength": 2.5,
-    "cost": 0,
-    "uniques": [
-      "Indicates the capital city",
-      "Free [Fisherman] appears"
-    ]
-  },
-  {
-    "name": "Burial Grounds",
-    "faith": 1,
-    "cost": 40,
-    "maintenance": 1,
-    "requiredTech": "Mining",
-    "uniques": [
-      "Only available <when religion is enabled>"
-    ],
-    "culture": 1
-  },
-  {
     "name": "Tannery",
     "maintenance": 1,
     "requiredNearbyImprovedResources": [
@@ -37,20 +12,6 @@
       "[+1 Gold] from [Deer] tiles [in this city]"
     ],
     "requiredTech": "Trapping"
-  },
-  {
-    "name": "Monestary",
-    "maintenance": 1,
-    "production": 1,
-    "faith": 2,
-    "happiness": 2,
-    "hurryCostModifier": 25,
-    "uniques": [
-      "May choose [1] additional belief(s) of any type when [founding] a religion",
-      "[+10]% Natural religion spread [in this city]",
-      "Only available <when religion is enabled>"
-    ],
-    "requiredTech": "Writing"
   },
   {
     "name": "Smokehouse",
@@ -67,149 +28,32 @@
     "requiredTech": "Construction"
   },
   {
-    "name": "Seminary",
-    "requiredBuilding": "Monestary",
-    "uniques": [
-      "[+20]% Faith cost of generating Great Prophet equivalents",
-      "Only available <when religion is enabled>"
-    ],
+    "name": "Sauna",
+    "replaces": "Water Mill",
+    "uniqueTo": "Finns",
     "faith": 2,
-    "hurryCostModifier": 50,
-    "maintenance": 1,
-    "requiredTech": "Theology"
-  },
-  {
-    "name": "Fish Farm",
-    "cost": 50,
-    "food": 1,
-    "Production": 1,
-    "requiredTech": "Sailing",
+    "culture": 2,
     "uniques": [
-      "Only available <if [Fishing Trip 1] is constructed in all [Capital] cities> <hidden from users>"
+      "[+2 Food] from [Snow] tiles [in this city]"
     ],
-    "civilopediaText": [
-      {
-        "text": "A [Fish Farm] can be constructed after a [Fisherman] builds a [Fishing Trip] improvement on a [Trout] or [Northern Pike] tile outside the city limits."
-      },
-      {
-        "separator": true
-      },
-      {
-        "text": "Fisherman",
-        "link": "Unit/Fisherman"
-      },
-      {
-        "text": "Fishing Trip",
-        "link": "Improvement/Fishing Trip"
-      },
-      {
-        "text": "Trout",
-        "link": "Resource/Trout"
-      },
-      {
-        "text": "Northern Pike",
-        "link": "Resource/Northern Pike"
-      }
-    ]
+    "hurryCostModifier": 25,
+    "maintenance": 1,
+    "percentStatBonus": {
+      "food": 15
+    },
+    "requiredTech": "The Wheel"
   },
   {
-    "name": "Fish Market",
-    "cost": "100",
-    "food": 2,
-    "requiredTech": "Currency",
+    "name": "Runestone",
+    "culture": 3,
+    "faith": 1,
+    "cost": 40,
+    "replaces": "Monument",
+    "uniqueTo": "Rus'",
+    "hurryCostModifier": 40,
+    "maintenance": 1,
     "uniques": [
-      "[+1 Gold] from [Trout] tiles [in this city]",
-      "[+1 Gold] from [Northern Pike] tiles [in this city]",
-      "Only available <if [Market Canopy] is constructed in all [Capital] cities> <hidden from users>"
-    ]
-  },
-  {
-    "name": "Fishery",
-    "cost": 140,
-    "production": 2,
-    "requiredTech": "Optics",
-    "uniques": [
-      "[+1 Food] from [Fishing Boats] tiles [in this city]",
-      "Only available <if [Fishery Pier] is constructed in all [Capital] cities> <hidden from users>"
-    ]
-  },
-  {
-    "name": "Fisherman's Wharf",
-    "isWonder": true,
-    "cost": 250,
-    "production": 2,
-    "requiredTech": "Compass",
-    "uniques": [
-      "[+2 Gold] from [Fishing Boats] tiles [in this city]",
-      "[+1 Food] from [Coast] tiles [in this city]",
-      "[+1 Food] from [Northern Pike] tiles [in this city]",
-      "Must be next to [Coast]",
-      "Cannot be purchased",
-      "Only available <in cities with a [Fishery]>",
-      "Only available <if [Harbor] is constructed in at least [1] of [in all cities] cities>",
-      "Only available <if [Wharf] is constructed in all [Capital] cities> <hidden from users>"
-    ]
-  },
-  {
-    "name": "Fishing Trip 1",
-    "uniques": [
-      "Unbuildable",
-      "Will not be displayed in Civilopedia",
-      "Free [Fisherman] appears <upon discovering [Optics] technology>"
-    ]
-  },
-  {
-    "name": "Fishing Trip 2",
-    "uniques": [
-      "Unbuildable",
-      "Will not be displayed in Civilopedia",
-      "[+1 Gold, +1 Food] from all [Fish Farm] buildings <hidden from users>",
-      "Free [Fisherman] appears <upon discovering [Currency] technology>"
-    ]
-  },
-  {
-    "name": "Fishing Trip 3",
-    "uniques": [
-      "Unbuildable",
-      "Will not be displayed in Civilopedia",
-      "Free [Fisherman] appears <upon discovering [Guilds] technology>"
-    ]
-  },
-  {
-    "name": "Fishing Trip 4",
-    "uniques": [
-      "Unbuildable",
-      "Will not be displayed in Civilopedia"
-    ]
-  },
-  {
-    "name": "Market Canopy",
-    "uniques": [
-      "Unbuildable",
-      "Will not be displayed in Civilopedia"
-    ]
-  },
-  {
-    "name": "Fishery Pier",
-    "uniques": [
-      "Unbuildable",
-      "Will not be displayed in Civilopedia"
-    ]
-  },
-  {
-    "name": "Coastline",
-    "uniques": [
-      "Unbuildable",
-      "Will not be displayed in Civilopedia",
-      "[+1 Food] from [Water] tiles [in this city]\"",
-      "[+1 Science] from [Water] tiles [in this city]\""
-    ]
-  },
-  {
-    "name": "Wharf",
-    "uniques": [
-      "Unbuildable",
-      "Will not be displayed in Civilopedia"
+      "Destroyed when the city is captured"
     ]
   }
 ]

@@ -1,6 +1,6 @@
 
 game.png
-size: 512, 512
+size: 512, 640
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -147,6 +147,20 @@ NationIcons/Vikings
 NationIcons/Saxons
   rotate: false
   xy: 100, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Raider
+  rotate: false
+  xy: 200, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Exploration Ship
+  rotate: false
+  xy: 300, 400
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

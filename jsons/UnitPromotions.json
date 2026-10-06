@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Raiding Party",
+    "uniques": [
+      "Gain [20]-[100] [Gold] <upon defeating a [Wounded] unit>"
+    ]
+  },
+  {
+    "name": "Shield Wall",
+    "uniques": [
+      "\"[+20]% Strength bonus for [Vikings] units within [3] tiles"
+    ]
+  },
+  {
+    "name": "Naval Raiders",
+    "uniques": [
+      "May capture killed [Water] units"
+    ]
+  }
+]

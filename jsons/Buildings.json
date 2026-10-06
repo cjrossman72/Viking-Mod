@@ -14,6 +14,21 @@
     "requiredTech": "Trapping"
   },
   {
+    "name": "Hjell",
+    "maintenance": 0,
+    "uniqueTo": "Vikings",
+    "requiredNearbyImprovedResources": [
+      "Fish",
+      "Whales"
+    ],
+    "hurryCostModifier": 25,
+    "uniques": [
+      "[+2 Food] from [Fish] tiles [in this city]",
+      "[+1 Food] from [Whale] tiles [in this city]"
+    ],
+    "requiredTech": "Construction"
+  },
+  {
     "name": "Smokehouse",
     "maintenance": 0,
     "requiredNearbyImprovedResources": [
@@ -44,7 +59,7 @@
     "requiredTech": "The Wheel"
   },
   {
-    "name": "Runestone",
+    "name": "Rök runestone",
     "culture": 3,
     "faith": 1,
     "cost": 40,

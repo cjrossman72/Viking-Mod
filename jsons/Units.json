@@ -78,16 +78,59 @@
     "obsoleteTech": "Metal Casting",
     "uniqueTo": "Vikings",
     "replaces": "Warrior",
-    "upgradesTo": "Swordsman",
+    "upgradesTo": "Battle-axe",
     "uniques": [
-      "Ignores terrain cost",
-      "Gain [20]-[100] [Gold] <upon defeating a [Wounded] unit>"
+      "Ignores terrain cost"
     ],
     "attackSound": "nonmetalhit",
     "civilopediaText": [
       {
         "text": "This is a fierce fighter who will pillage gold from his defeated foe."
       }
+    ],
+    "promotions": [
+      "Raiding Party"
     ]
+  },
+  {
+    "name": "Battle-axe",
+    "unitType": "Sword",
+    "movement": 2,
+    "strength": 16,
+    "cost": 75,
+    "requiredTech": "Bronze Working",
+    "obsoleteTech": "Steel",
+    "uniqueTo": "Vikings",
+    "replaces": "Spearman",
+    "upgradesTo": "Longswordsman",
+    "uniques": [
+      "Ignores terrain cost",
+      "[+50]% Strength <vs [Mounted] units>"
+    ],
+    "attackSound": "nonmetalhit",
+    "promotions": [
+      "Raiding Party",
+      "Shield Wall"
+    ],
+    "civilopediaText": [
+      {
+        "text": "This is a fierce fighter who will pillage gold from his defeated foe."
+      }
+    ]
+  },
+  {
+    "name": "Dragon Ship",
+    "unitType": "Melee Water",
+    "movement": 5,
+    "strength": 18,
+    "cost": 150,
+    "requiredTech": "Optics",
+    "upgradesTo": "Destroyer",
+    "uniqueTo": "Vikings",
+    "promotions": [
+      "Coastal Raider I",
+      "Naval Raiders"
+    ],
+    "attackSound": "nonmetalhit"
   }
 ]

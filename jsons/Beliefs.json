@@ -54,7 +54,7 @@
     "type": "Follower",
     "uniques": [
       "[+1 Gold, +1 Culture] from [Citrus] tiles [in all cities]",
-      "[+1 Gold, +1 Science] from [Banana] tiles [in all cities]",
+      "[+1 Gold, +1 Science] from [Bananas] tiles [in all cities]",
       "[+1 Faith, +1 Production] from [Wheat] tiles [in all cities]"
     ]
   },

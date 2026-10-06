@@ -165,3 +165,24 @@ UnitIcons/Exploration Ship
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Hjell
+  rotate: false
+  xy: 400, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Battle-axe
+  rotate: false
+  xy: 0, 500
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Dragon Ship
+  rotate: false
+  xy: 100, 500
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

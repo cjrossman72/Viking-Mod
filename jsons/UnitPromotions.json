@@ -8,7 +8,8 @@
   {
     "name": "Exploration",
     "uniques": [
-      "Enables [Explorer] units to enter ocean tiles"
+      "Enables [Explorer] units to enter ocean tiles",
+      "Founds a new city"
     ]
   },
   {

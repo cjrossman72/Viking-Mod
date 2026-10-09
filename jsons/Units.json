@@ -85,8 +85,7 @@
     "uniqueTo": "Vikings",
     "upgradesTo": "Battle-axe",
     "uniques": [
-      "Ignores terrain cost",
-      "Founds a new city"
+      "Ignores terrain cost"
     ],
     "attackSound": "nonmetalhit",
     "civilopediaText": [

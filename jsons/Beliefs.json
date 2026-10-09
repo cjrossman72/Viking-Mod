@@ -25,6 +25,15 @@
     ]
   },
   {
+    "name": "Forge of Svarog",
+    "type": "Pantheon",
+    "uniques": [
+      "[+1 Culture, +1 Faith] from every [Gold Ore]",
+      "[+1 Science, +1 Gold] from every [Silver]",
+      "[+1 Production, +1 Gold] from every [Copper]"
+    ]
+  },
+  {
     "name": "Obedience to Odin",
     "type": "Pantheon",
     "uniques": [
@@ -65,6 +74,34 @@
       "[+2 Gold] from [Pearls] tiles [in all cities]",
       "[+1 Culture] from [Ivory] tiles [in all cities]",
       "[+1 Production] from [Marble] tiles [in all cities]"
+    ]
+  },
+  {
+    "name": "Tree of Knowledge",
+    "type": "Founder",
+    "uniques": [
+      "Each city founded increases Science cost of Technologies [+20]% less than normal"
+    ]
+  },
+  {
+    "name": "Great Men of God",
+    "type": "Founder",
+    "uniques": [
+      "Allied City-States will occasionally gift Great People"
+    ]
+  },
+  {
+    "name": "Joy to the World",
+    "type": "Enhancer",
+    "uniques": [
+      "[+25]% [Faith] <during We Love The King Day>"
+    ]
+  },
+  {
+    "name": "God's Creation",
+    "type": "Enhancer",
+    "uniques": [
+      "[+20]% [Luxury] resource production <while the empire is happy>"
     ]
   }
 ]

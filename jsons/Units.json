@@ -13,24 +13,6 @@
     ]
   },
   {
-    "name": "Exploration Ship",
-    "unitType": "Melee Water",
-    "movement": 4,
-    "strength": 10,
-    "cost": 60,
-    "requiredTech": "Optics",
-    "uniques": [
-      "Cannot enter ocean tiles",
-      "Never appears as a Barbarian unit",
-      "Can carry [1] [Civilian] units",
-      "Can carry [1] [Warrior] units",
-      "Can carry [1] [Raider] units"
-    ],
-    "upgradesTo": "Caravel",
-    "obsoleteTech": "Astronomy",
-    "attackSound": "nonmetalhit"
-  },
-  {
     "name": "Birlinn",
     "unitType": "Melee Water",
     "movement": 4,
@@ -90,6 +72,30 @@
     ],
     "promotions": [
       "Raiding Party"
+    ]
+  },
+  {
+    "name": "Explorer",
+    "unitType": "Sword",
+    "movement": 2,
+    "strength": 10,
+    "cost": 40,
+    "requiredTech": "Agriculture",
+    "obsoleteTech": "Metal Casting",
+    "uniqueTo": "Vikings",
+    "upgradesTo": "Battle-axe",
+    "uniques": [
+      "Ignores terrain cost",
+      "Founds a new city"
+    ],
+    "attackSound": "nonmetalhit",
+    "civilopediaText": [
+      {
+        "text": "This is a fierce fighter who will pillage gold from his defeated foe."
+      }
+    ],
+    "promotions": [
+      "Exploration"
     ]
   },
   {

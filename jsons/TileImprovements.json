@@ -28,9 +28,26 @@
       "Gives a defensive bonus of [100]%",
       "Adjacent enemy units ending their turn take [30] damage",
       "Can be built outside your borders",
-      "Gain control over [all] tiles in a [2]-tile radius",
+      "Gain control over [all] tiles in a [1]-tile radius",
       "Removes removable features when built",
       "Will not be replaced by automated units"
+    ]
+  },
+  {
+    "name": "Corral",
+    "terrainsCanBeBuiltOn": [
+      "Plains",
+      "Grassland",
+      "Hill"
+    ],
+    "turnsToBuild": 3,
+    "techRequired": "Animal Husbandry",
+    "uniques": [
+      "Can be built outside your borders",
+      "Can only be built on [Wild Horses] tiles",
+      "Gain control over [Wild Horses] tiles in a [1]-tile radius",
+      "Provides [2] [Horses]",
+      "Only available for [Wrangler] units"
     ]
   }
 ]

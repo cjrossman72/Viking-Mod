@@ -6,6 +6,12 @@
     ]
   },
   {
+    "name": "Exploration",
+    "uniques": [
+      "Enables [Explorer] units to enter ocean tiles"
+    ]
+  },
+  {
     "name": "Shield Wall",
     "uniques": [
       "\"[+20]% Strength bonus for [Vikings] units within [3] tiles"
@@ -14,7 +20,7 @@
   {
     "name": "Naval Raiders",
     "uniques": [
-      "May capture killed [Water] units"
+      "May capture killed [Water] units <with [75]% chance>"
     ]
   }
 ]

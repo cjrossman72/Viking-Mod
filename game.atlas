@@ -158,7 +158,7 @@ UnitIcons/Raider
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Exploration Ship
+UnitIcons/Explorer
   rotate: false
   xy: 300, 400
   size: 100, 100
@@ -182,6 +182,27 @@ UnitIcons/Battle-axe
 UnitIcons/Dragon Ship
   rotate: false
   xy: 100, 500
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Finns
+  rotate: false
+  xy: 200, 500
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Rus
+  rotate: false
+  xy: 300, 500
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Norse-Gaels
+  rotate: false
+  xy: 400, 500
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

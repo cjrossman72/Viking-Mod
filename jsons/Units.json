@@ -149,7 +149,6 @@
   {
     "name": "Equestrian",
     "unitType": "Civilian",
-    "requiredTech": "Animal Husbandry",
     "strength": 8,
     "movement": 2,
     "cost": 100,

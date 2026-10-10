@@ -59,6 +59,17 @@
     "requiredTech": "The Wheel"
   },
   {
+    "name": "Horse Farm",
+    "gold": 1,
+    "production": 2,
+    "uniques": [
+      "Provides [2] [Horses]"
+    ],
+    "hurryCostModifier": 25,
+    "maintenance": 1,
+    "requiredTech": "Animal Husbandry"
+  },
+  {
     "name": "Rök runestone",
     "culture": 3,
     "faith": 1,

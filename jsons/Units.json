@@ -1,0 +1,169 @@
+[
+  {
+    "name": "Great Admiral",
+    "unitType": "Civilian Water",
+    "movement": 8,
+    "uniques": [
+      "Can instantly construct a [Naval Base] improvement <by consuming this unit>",
+      "Is part of Great Person group [Admiral]",
+      "[This Unit] gets a name from the [Admiral] group",
+      "Great Person - [War]",
+      "Unbuildable",
+      "Uncapturable"
+    ]
+  },
+  {
+    "name": "Birlinn",
+    "unitType": "Melee Water",
+    "movement": 4,
+    "strength": 14,
+    "cost": 60,
+    "requiredTech": "Optics",
+    "uniqueTo": "Norse-Gaels",
+    "uniques": [
+      "Cannot enter ocean tiles",
+      "Can move after attacking"
+    ],
+    "upgradesTo": "Caravel",
+    "obsoleteTech": "Astronomy",
+    "attackSound": "nonmetalhit"
+  },
+  {
+    "name": "Gallowglass",
+    "unitType": "Sword",
+    "movement": 3,
+    "strength": 10,
+    "cost": 40,
+    "requiredTech": "Agriculture",
+    "obsoleteTech": "Metal Casting",
+    "uniqueTo": "Norse-Gaels",
+    "replaces": "Warrior",
+    "upgradesTo": "Swordsman",
+    "uniques": [
+      "Ignores terrain cost"
+    ],
+    "attackSound": "nonmetalhit",
+    "civilopediaText": [
+      {
+        "text": "This is an axe-wielding fierce fighter."
+      }
+    ]
+  },
+  {
+    "name": "Raider",
+    "unitType": "Sword",
+    "movement": 2,
+    "strength": 10,
+    "cost": 40,
+    "requiredTech": "Agriculture",
+    "obsoleteTech": "Metal Casting",
+    "uniqueTo": "Vikings",
+    "replaces": "Warrior",
+    "upgradesTo": "Battle-axe",
+    "uniques": [
+      "Ignores terrain cost"
+    ],
+    "attackSound": "nonmetalhit",
+    "civilopediaText": [
+      {
+        "text": "This is a fierce fighter who will pillage gold from his defeated foe."
+      }
+    ],
+    "promotions": [
+      "Raiding Party"
+    ]
+  },
+  {
+    "name": "Explorer",
+    "unitType": "Sword",
+    "movement": 2,
+    "strength": 10,
+    "cost": 40,
+    "requiredTech": "Agriculture",
+    "obsoleteTech": "Metal Casting",
+    "upgradesTo": "Battle-axe",
+    "uniques": [
+      "Ignores terrain cost",
+      "Unavailable <for [City-States] Civilizations> <hidden from users>",
+      "Never appears as a Barbarian unit <hidden from users>"
+    ],
+    "attackSound": "nonmetalhit",
+    "civilopediaText": [
+      {
+        "text": "The [Explorer] is more than just a [Settler]. They can fight and defend themselves also."
+      }
+    ],
+    "promotions": [
+      "Exploration"
+    ]
+  },
+  {
+    "name": "Battle-axe",
+    "unitType": "Sword",
+    "movement": 2,
+    "strength": 16,
+    "cost": 75,
+    "requiredTech": "Bronze Working",
+    "obsoleteTech": "Steel",
+    "uniqueTo": "Vikings",
+    "replaces": "Spearman",
+    "upgradesTo": "Longswordsman",
+    "uniques": [
+      "Ignores terrain cost",
+      "[+50]% Strength <vs [Mounted] units>"
+    ],
+    "attackSound": "nonmetalhit",
+    "promotions": [
+      "Raiding Party",
+      "Shield Wall"
+    ],
+    "civilopediaText": [
+      {
+        "text": "This is a fierce fighter who will pillage gold from his defeated foe."
+      }
+    ]
+  },
+  {
+    "name": "Dragon Ship",
+    "unitType": "Melee Water",
+    "movement": 5,
+    "strength": 18,
+    "cost": 150,
+    "requiredTech": "Optics",
+    "upgradesTo": "Destroyer",
+    "uniqueTo": "Vikings",
+    "uniques": [
+      "[5] Sight"
+    ],
+    "promotions": [
+      "Coastal Raider I",
+      "Naval Raiders"
+    ],
+    "attackSound": "nonmetalhit",
+    "civilopediaText": [
+      {
+        "text": "This deadly Viking vessel can capture enemy water units"
+      }
+    ]
+  },
+  {
+    "name": "Equestrian",
+    "unitType": "Civilian",
+    "requiredTech": "Animal Husbandry",
+    "strength": 8,
+    "movement": 2,
+    "cost": 100,
+    "uniques": [
+      "Ignores terrain cost",
+      "Never appears as a Barbarian unit <hidden from users>",
+      "Unavailable <for [City-States] Civilizations> <hidden from users>",
+      "Triggers a [Found Wild Horses] event <in [Wild Horses] tiles> <hidden from users>"
+    ],
+    "attackSound": "nonmetalhit",
+    "civilopediaText": [
+      {
+        "text": "An [Equestrian] can tame [Wild Horse] to add to your [Horses] strategic resources"
+      }
+    ]
+  }
+]

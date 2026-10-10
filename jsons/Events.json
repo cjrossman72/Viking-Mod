@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Found Wild Horses",
+    "text": "Your [Equestrian] has come across a herd of [Wild Horses]",
+    "presentation": "Alert",
+    "choices": [
+      {
+        "text": "Tame [Wild Horses] to gain [Horses] strategic resources (this will consume your [Equestrian]",
+        "uniques": [
+          "Triggers a [Tame Horses] event <hidden from users>"
+        ]
+      },
+      {
+        "text": "Continue without taking horses",
+        "uniques": []
+      }
+    ]
+  },
+  {
+    "name": "Tame Horses",
+    "text": "Your Equestrian tames Wild Horses",
+    "presentation": "None",
+    "choices": [
+      {
+        "text": "Tame [Wild Horses]",
+        "uniques": [
+          "Provides [2] [Horses]",
+          "Remove [Wild Horses] resources from this tile <hidden from users>",
+          "Triggers a [Destroy Equestrian] event <hidden from users>"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Destroy Equestrian",
+    "text": "Destroy Equestrian",
+    "presentation": "None",
+    "choices": [
+      {
+        "text": "[This Unit] is destroyed",
+        "uniques": [
+          "[This Unit] is destroyed",
+          "Remove [Archaeological Dig] improvements from this tile"
+        ]
+      }
+    ]
+  }
+]

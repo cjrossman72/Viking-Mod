@@ -24,7 +24,7 @@
       {
         "text": "Tame [Wild Horses]",
         "uniques": [
-          "Provides [2] [Horses]",
+          "Provides [2] [Horses] <for [human player] Civilizations>",
           "Remove [Wild Horses] resources from this tile <hidden from users>",
           "Triggers a [Destroy Equestrian] event <hidden from users>"
         ]

@@ -98,7 +98,7 @@
     ]
   },
   {
-    "name": "Norse–Gaels",
+    "name": "Norse Gaels",
     "leaderName": "Sitric Silkenbeard",
     "adjective": [
       "Norse-Gaels"
@@ -115,14 +115,14 @@
     "hateHello": "We are fierce warriors. Respect our might and power!",
     "tradeRequest": "We will trade rather than raid you.",
     "outerColor": [
-      170,
-      170,
-      230
+      255,
+      210,
+      245
     ],
     "innerColor": [
-      150,
-      0,
-      60
+      202,
+      33,
+      0
     ],
     "favoredReligion": "Christianity",
     "uniqueName": "The English ",
@@ -162,14 +162,14 @@
     "hateHello": "Leave us be. We want nothing to do with you.",
     "tradeRequest": "We welcome the chance to exchange goods with you.",
     "outerColor": [
+      230,
       255,
-      255,
-      255
+      175
     ],
     "innerColor": [
-      130,
-      130,
-      50
+      100,
+      140,
+      0
     ],
     "favoredReligion": "Christianity",
     "uniqueName": "Baltic Finnic",
@@ -192,7 +192,7 @@
     ]
   },
   {
-    "name": "Rus'",
+    "name": "Rus",
     "leaderName": "Rurik",
     "adjective": [
       "Finnic"
@@ -209,14 +209,14 @@
     "hateHello": "Leave us be. We want nothing to do with you.",
     "tradeRequest": "We welcome the chance to exchange goods with you.",
     "outerColor": [
-      255,
-      255,
-      255
+      200,
+      200,
+      200
     ],
     "innerColor": [
-      130,
-      130,
-      50
+      150,
+      0,
+      0
     ],
     "favoredReligion": "Islam",
     "uniqueName": "Baltic Finnic",

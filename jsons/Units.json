@@ -19,7 +19,7 @@
     "strength": 14,
     "cost": 60,
     "requiredTech": "Optics",
-    "uniqueTo": "Norse-Gaels",
+    "uniqueTo": "Norse Gaels",
     "uniques": [
       "Cannot enter ocean tiles",
       "Can move after attacking"
@@ -36,7 +36,7 @@
     "cost": 40,
     "requiredTech": "Agriculture",
     "obsoleteTech": "Metal Casting",
-    "uniqueTo": "Norse-Gaels",
+    "uniqueTo": "Norse Gaels",
     "replaces": "Warrior",
     "upgradesTo": "Swordsman",
     "uniques": [

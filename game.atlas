@@ -46,7 +46,7 @@ BuildingIcons/Naval Base
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Wrangler
+UnitIcons/Equestrian
   rotate: false
   xy: 100, 100
   size: 100, 100

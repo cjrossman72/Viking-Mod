@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Raiding Party",
+    "uniques": [
+      "Gain [20]-[100] [Gold] <upon defeating a [Wounded] unit>"
+    ]
+  },
+  {
+    "name": "Exploration",
+    "uniques": [
+      "Enables [Explorer] units to enter ocean tiles",
+      "Founds a new city"
+    ]
+  },
+  {
+    "name": "Shield Wall",
+    "uniques": [
+      "\"[+20]% Strength bonus for [Vikings] units within [3] tiles"
+    ]
+  },
+  {
+    "name": "Naval Raiders",
+    "uniques": [
+      "May capture killed [Water] units <with [75]% chance>"
+    ]
+  }
+]

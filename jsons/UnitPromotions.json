@@ -13,15 +13,33 @@
     ]
   },
   {
-    "name": "Shield Wall",
-    "uniques": [
-      "\"[+20]% Strength bonus for [Vikings] units within [3] tiles"
-    ]
-  },
-  {
     "name": "Naval Raiders",
     "uniques": [
       "May capture killed [Water] units <with [75]% chance>"
+    ]
+  },
+  {
+    "name": "Shield Wall I",
+    "uniques": [
+      "\"[+10]% Strength bonus for [Vikings] units within [2] tiles"
+    ]
+  },
+  {
+    "name": "Shield Wall II",
+    "prerequisites": [
+      "Shield Wall I"
+    ],
+    "uniques": [
+      "[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"
+    ]
+  },
+  {
+    "name": "Shield Wall III",
+    "prerequisites": [
+      "Shield Wall II"
+    ],
+    "uniques": [
+      "\"[+20]% Strength bonus for [Vikings] units within [3] tiles"
     ]
   }
 ]

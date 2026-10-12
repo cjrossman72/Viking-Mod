@@ -168,25 +168,5 @@
         "text": "This deadly Viking vessel can capture enemy water units"
       }
     ]
-  },
-  {
-    "name": "Equestrian",
-    "unitType": "Civilian",
-    "requiredTech": "Animal Husbandry",
-    "strength": 8,
-    "movement": 2,
-    "cost": 100,
-    "uniques": [
-      "Ignores terrain cost",
-      "Never appears as a Barbarian unit <hidden from users>",
-      "Unavailable <for [City-States] Civilizations> <hidden from users>",
-      "Triggers a [Found Wild Horses] event <upon ending a turn in a [Wild Horses] tile> <hidden from users>"
-    ],
-    "attackSound": "nonmetalhit",
-    "civilopediaText": [
-      {
-        "text": "An [Equestrian] can tame [Wild Horse] to add to your [Horses] strategic resources"
-      }
-    ]
   }
 ]

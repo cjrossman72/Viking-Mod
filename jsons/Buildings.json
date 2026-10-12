@@ -72,68 +72,6 @@
     ]
   },
   {
-    "name": "Horse Corral",
-    "uniques": [
-      "Unbuildable",
-      "[+1 Production] from [Horses] tiles [in this city] "
-    ],
-    "hurryCostModifier": 25,
-    "requiredTech": "Animal Husbandry"
-  },
-  {
-    "name": "Horse Stalls",
-    "production": 2,
-    "uniques": [
-      "Provides [2] [Horses]",
-      "Only available <if [Horse Corral] is constructed in [{Your} {Capital}] cities> "
-    ],
-    "hurryCostModifier": 25,
-    "requiredTech": "Animal Husbandry"
-  },
-  {
-    "name": "Horse Farm",
-    "gold": 1,
-    "production": 2,
-    "requiredNearbyImprovedResources": [
-      "Horses"
-    ],
-    "uniques": [
-      "Provides [2] [Horses]"
-    ],
-    "hurryCostModifier": 25,
-    "maintenance": 1,
-    "requiredBuilding": "Horse Stalls",
-    "requiredTech": "Horseback Riding"
-  },
-  {
-    "name": "Horsetrack",
-    "gold": 2,
-    "culture": 2,
-    "uniques": [
-      "Provides [3] [Horses]",
-      "Limited to [2] per Civilization"
-    ],
-    "hurryCostModifier": 25,
-    "maintenance": 1,
-    "requiredBuilding": "Horse Farm",
-    "requiredTech": "Currency"
-  },
-  {
-    "name": "Jousting Arena",
-    "gold": 2,
-    "production": 2,
-    "culture": 2,
-    "isWonder": true,
-    "uniques": [
-      "Provides [3] [Horses]",
-      "Free [Horseman] appears"
-    ],
-    "hurryCostModifier": 25,
-    "maintenance": 1,
-    "requiredBuilding": "Horsetrack",
-    "requiredTech": "Chivalry"
-  },
-  {
     "name": "Timber Ramparts",
     "cityStrength": 5,
     "cityHealth": 50,

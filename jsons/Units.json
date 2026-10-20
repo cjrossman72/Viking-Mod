@@ -103,13 +103,15 @@
     "movement": 2,
     "strength": 10,
     "cost": 40,
-    "requiredTech": "Agriculture",
+    "requiredTech": "Optics",
     "obsoleteTech": "Metal Casting",
     "upgradesTo": "Battle-axe",
     "uniques": [
+      "Founds a new city",
       "Ignores terrain cost",
       "Unavailable <for [City-States] Civilizations> <hidden from users>",
-      "Never appears as a Barbarian unit <hidden from users>"
+      "Never appears as a Barbarian unit <hidden from users>",
+      "[4] Movement <in [Water] tiles>"
     ],
     "attackSound": "nonmetalhit",
     "civilopediaText": [
@@ -153,13 +155,14 @@
     "strength": 18,
     "cost": 150,
     "requiredTech": "Optics",
+    "requiredBuilding": "Shipyard",
     "upgradesTo": "Destroyer",
     "uniqueTo": "Vikings",
     "uniques": [
       "[5] Sight"
     ],
     "promotions": [
-      "Coastal Raider I",
+      "Land Party",
       "Naval Raiders"
     ],
     "attackSound": "nonmetalhit",

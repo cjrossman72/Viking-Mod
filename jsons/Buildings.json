@@ -147,5 +147,18 @@
       "All newly-trained [Shield Maiden] units [in all cities] receive the [Shield Wall III] promotion",
       "[Shield Maiden] units gain the [Shield Wall III] promotion"
     ]
+  },
+  {
+    "name": "Shipyard",
+    "cost": 125,
+    "hurryCostModifier": 25,
+    "requiredTech": "Optics",
+    "uniques": [
+      "Destroyed when the city is captured",
+      "Enables [Explorer] units to enter ocean tiles",
+      "All newly-trained [{Military}{Water}] units [in all cities] receive the Boarding Party] promotion",
+      "[{Military}{Water}] units gain the [Boarding Party I] promotion",
+      "Must be next to [Coast]"
+    ]
   }
 ]

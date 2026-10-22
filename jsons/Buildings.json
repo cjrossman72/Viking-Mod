@@ -1,24 +1,34 @@
 [
   {
+    "name": "Walls",
+    "cityStrength": 5,
+    "cityHealth": 50,
+    "hurryCostModifier": 25,
+    "requiredTech": "Mining",
+    "uniques": [
+      "Destroyed when the city is captured"
+    ]
+  },
+  {
     "name": "Castle",
+    "requiredBuilding": "Walls",
+    "requiredTech": "Engineering",
     "cityStrength": 7,
     "cityHealth": 25,
     "hurryCostModifier": 25,
-    "requiredBuilding": "Walls",
-    "requiredTech": "Engineering",
     "uniques": [
       "Destroyed when the city is captured"
     ]
   },
   {
     "name": "Sawmill",
+    "requiredTech": "Masonry",
     "production": 1,
     "cost": 125,
     "requiredNearbyImprovedResources": [
       "Timber"
     ],
     "hurryCostModifier": 25,
-    "requiredTech": "Mining",
     "uniques": [
       "Destroyed when the city is captured",
       "Provides [2] [Wood] <upon entering a new era>",
@@ -27,6 +37,7 @@
   },
   {
     "name": "Tannery",
+    "requiredTech": "Trapping",
     "production": 1,
     "maintenance": 1,
     "requiredNearbyImprovedResources": [
@@ -39,14 +50,13 @@
       "[+1 Gold] from [Furs] tiles [in this city]",
       "[+1 Gold] from [Deer] tiles [in this city]",
       "[+1 Gold] from [Bison] tiles [in this city]"
-    ],
-    "requiredTech": "Trapping"
+    ]
   },
   {
     "name": "Shipyard",
+    "requiredTech": "Shipbuilding",
     "cost": 125,
     "hurryCostModifier": 25,
-    "requiredTech": "Optics",
     "uniques": [
       "Destroyed when the city is captured",
       "Enables [Explorer] units to enter ocean tiles",
@@ -70,7 +80,22 @@
     "requiredTech": "Construction"
   },
   {
+    "name": "Rök runestone",
+    "requiredBuilding": "Monument",
+    "requiredTech": "Masonry",
+    "isWonder": true,
+    "culture": 2,
+    "faith": 3,
+    "cost": 150,
+    "maintenance": 1,
+    "uniques": [
+      "Destroyed when the city is captured",
+      "[+1 Faith] from all [Faith] buildings"
+    ]
+  },
+  {
     "name": "Hjell",
+    "requiredTech": "Shipbuilding",
     "maintenance": 0,
     "requiredNearbyImprovedResources": [
       "Fish",
@@ -81,7 +106,6 @@
       "[+2 Food] from [Fish] tiles [in this city]",
       "[+1 Food] from [Whale] tiles [in this city]"
     ],
-    "requiredTech": "Construction",
     "civilopediaText": [
       {
         "text": "A Scandinavian curing house for drying fish."
@@ -89,22 +113,9 @@
     ]
   },
   {
-    "name": "Rök runestone",
-    "isWonder": true,
-    "culture": 2,
-    "faith": 3,
-    "cost": 150,
-    "maintenance": 1,
-    "uniques": [
-      "Destroyed when the city is captured",
-      "[+1 Faith] from all [Faith] buildings"
-    ],
-    "requiredTech": "Masonry",
-    "requiredBuilding": "Monument"
-  },
-  {
     "name": "Baðstofa",
     "replaces": "Water Mill",
+    "requiredTech": "The Wheel",
     "uniqueTo": "Finns",
     "faith": 2,
     "culture": 2,
@@ -116,12 +127,10 @@
     "percentStatBonus": {
       "food": 15
     },
-    "requiredTech": "The Wheel",
     "civilopediaText": [
       {
-        "text": "Baðstofas were Viking age structures build over hot springs and served as places for hygiene, warmth and fresh water.",
-        "separator": true,
-        "text": "Baðstofas were common in Finland because the terrain had many hot springs."
+        "text": "Baðstofas were common in Finland because the terrain had many hot springs.",
+        "separator": true
       }
     ]
   },
@@ -129,10 +138,10 @@
     "name": "Timber Ramparts",
     "uniqueTo": "Vikings",
     "replaces": "Walls",
+    "requiredTech": "Woodworking",
     "cityStrength": 5,
     "cityHealth": 50,
     "hurryCostModifier": 25,
-    "requiredTech": "Masonry",
     "uniques": [
       "Destroyed when the city is captured",
       "All newly-trained [Shield Maiden] units [in all cities] receive the [Shield Wall II] promotion",
@@ -149,10 +158,10 @@
     "name": "Fortified Burhs",
     "uniqueTo": "Saxons",
     "replaces": "Walls",
+    "requiredTech": "Mining",
     "cityStrength": 5,
     "cityHealth": 50,
     "hurryCostModifier": 25,
-    "requiredTech": "Masonry",
     "uniques": [
       "Destroyed when the city is captured",
       "[Saxons] Units adjacent to this city heal [5] HP per turn when healing"
@@ -167,10 +176,10 @@
     "name": "Earthwork Quay",
     "uniqueTo": "Norse Gaels",
     "replaces": "Walls",
+    "requiredTech": "Mining",
     "cityStrength": 5,
     "cityHealth": 50,
     "hurryCostModifier": 25,
-    "requiredTech": "Masonry",
     "uniques": [
       "Destroyed when the city is captured",
       "[+20] Strength <for [Norse Gaels] units> <in tiles adjacent to [Norse Gaels] tiles>"
@@ -185,10 +194,10 @@
     "name": "Skipsnaust Boathouse",
     "uniqueTo": "Finns",
     "replaces": "Walls",
+    "requiredTech": "Woodworking",
     "cityStrength": 5,
     "cityHealth": 50,
     "hurryCostModifier": 25,
-    "requiredTech": "Sailing",
     "uniques": [
       "Destroyed when the city is captured",
       "[{Your} {Water}] Units adjacent to this city heal [5] HP per turn when healing"
@@ -203,10 +212,10 @@
     "name": "Ostrog Palisades",
     "uniqueTo": "Rus",
     "replaces": "Walls",
+    "requiredTech": "Woodworking",
     "cityStrength": 5,
     "cityHealth": 50,
     "hurryCostModifier": 25,
-    "requiredTech": "Sailing",
     "uniques": [
       "Destroyed when the city is captured",
       "[{Your} {Land}] Units adjacent to this city heal [5] HP per turn when healing"
@@ -221,10 +230,10 @@
     "name": "Trelleborg Fortress",
     "uniqueTo": "Vikings",
     "replaces": "Castle",
+    "requiredTech": "Engineering",
     "cityStrength": 25,
     "cityHealth": 75,
     "hurryCostModifier": 25,
-    "requiredTech": "Engineering",
     "uniques": [
       "Destroyed when the city is captured",
       "All newly-trained [Shield Maiden] units [in all cities] receive the [Shield Wall III] promotion",
@@ -235,10 +244,10 @@
     "name": "Stone Cathair",
     "uniqueTo": "Norse Gaels",
     "replaces": "Castle",
+    "requiredTech": "Engineering",
     "cityStrength": 25,
     "cityHealth": 75,
     "hurryCostModifier": 25,
-    "requiredTech": "Engineering",
     "uniques": [
       "Destroyed when the city is captured",
       "All newly-trained [Sword] units [in all cities] receive the [Formation I] promotion",
@@ -249,10 +258,10 @@
     "name": "Hirsirakennus",
     "uniqueTo": "Finns",
     "replaces": "Castle",
+    "requiredTech": "Engineering",
     "cityStrength": 5,
     "cityHealth": 50,
     "hurryCostModifier": 25,
-    "requiredTech": "Engineering",
     "uniques": [
       "Destroyed when the city is captured",
       "[+20]% City Strength from defensive buildings"
@@ -262,10 +271,10 @@
     "name": "Fortified Detinet",
     "uniqueTo": "Rus",
     "replaces": "Castle",
+    "requiredTech": "Engineering",
     "cityStrength": 25,
     "cityHealth": 75,
     "hurryCostModifier": 25,
-    "requiredTech": "Engineering",
     "uniques": [
       "Destroyed when the city is captured",
       "[+20]% Strength for cities"

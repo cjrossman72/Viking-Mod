@@ -1,5 +1,20 @@
 [
   {
+    "name": "Trireme",
+    "unitType": "Melee Water",
+    "movement": 4,
+    "strength": 10,
+    "cost": 45,
+    "requiredTech": "Shipbuilding",
+    "uniques": [
+      "Cannot enter ocean tiles",
+      "Never appears as a Barbarian unit"
+    ],
+    "upgradesTo": "Caravel",
+    "obsoleteTech": "Astronomy",
+    "attackSound": "nonmetalhit"
+  },
+  {
     "name": "Great Admiral",
     "unitType": "Civilian Water",
     "movement": 8,
@@ -22,7 +37,7 @@
     "requiredTech": "Agriculture",
     "obsoleteTech": "Steel",
     "replaces": "Warrior",
-    "upgradesTo": "Longswordsman",
+    "upgradesTo": "Swordsman",
     "uniques": [
       "Ignores terrain cost",
       "[+50]% Strength <vs [Mounted] units>"
@@ -46,7 +61,7 @@
     "cost": 40,
     "requiredTech": "Agriculture",
     "obsoleteTech": "Steel",
-    "upgradesTo": "Longswordsman",
+    "upgradesTo": "Pikeman",
     "uniques": [
       "Ignores terrain cost",
       "No defensive terrain penalty"
@@ -170,28 +185,28 @@
     "name": "Byrðingr",
     "unitType": "Civilian Water",
     "uniqueTo": "Vikings",
+    "replaces": "Cargo Ship",
     "movement": 5,
     "cost": 100,
-    "requiredTech": "Sailing",
-    "replaces": "Cargo Ship"
+    "requiredTech": "Sailing"
   },
   {
     "name": "Buscarl",
     "unitType": "Civilian Water",
     "uniqueTo": "Saxons",
+    "replaces": "Cargo Ship",
     "movement": 4,
     "cost": 100,
-    "requiredTech": "Sailing",
-    "replaces": "Cargo Ship"
+    "requiredTech": "Sailing"
   },
   {
     "name": "Snekkja",
     "unitType": "Melee Water",
     "uniqueTo": "Vikings",
+    "requiredTech": "Shipbuilding",
     "movement": 4,
     "strength": 10,
     "cost": 45,
-    "requiredTech": "Sailing",
     "uniques": [
       "Cannot enter ocean tiles",
       "Never appears as a Barbarian unit"
@@ -205,10 +220,10 @@
     "name": "Birlinn",
     "unitType": "Melee Water",
     "uniqueTo": "Norse Gaels",
+    "requiredTech": "Shipbuilding",
     "movement": 4,
     "strength": 14,
     "cost": 60,
-    "requiredTech": "Sailing",
     "uniques": [
       "Cannot enter ocean tiles",
       "Can move after attacking"
@@ -222,10 +237,10 @@
     "name": "Urhut",
     "unitType": "Melee Water",
     "uniqueTo": "Finns",
+    "requiredTech": "Shipbuilding",
     "movement": 4,
     "strength": 14,
     "cost": 60,
-    "requiredTech": "Sailing",
     "uniques": [
       "Cannot enter ocean tiles",
       "Can move after attacking"
@@ -239,10 +254,10 @@
     "name": "Monoxyla",
     "unitType": "Melee Water",
     "uniqueTo": "Rus",
+    "requiredTech": "Shipbuilding",
     "movement": 4,
     "strength": 14,
     "cost": 60,
-    "requiredTech": "Sailing",
     "uniques": [
       "Cannot enter ocean tiles",
       "Can move after attacking"
@@ -256,10 +271,10 @@
     "name": "Skeppa",
     "unitType": "Melee Water",
     "uniqueTo": "Saxons",
+    "requiredTech": "Shipbuilding",
     "movement": 4,
     "strength": 10,
     "cost": 45,
-    "requiredTech": "Sailing",
     "uniques": [
       "Cannot enter ocean tiles",
       "Never appears as a Barbarian unit"
@@ -273,12 +288,12 @@
     "name": "Dragon Ship",
     "unitType": "Ranged Water",
     "uniqueTo": "Vikings",
+    "requiredTech": "Optics",
+    "requiredBuilding": "Shipyard",
     "movement": 5,
     "strength": 18,
     "rangedStrength": 20,
     "cost": 150,
-    "requiredTech": "Optics",
-    "requiredBuilding": "Shipyard",
     "upgradesTo": "Destroyer",
     "uniques": [
       "[5] Sight",
@@ -318,12 +333,12 @@
     "name": "Royal Warship",
     "unitType": "Ranged Water",
     "uniqueTo": "Saxons",
+    "requiredTech": "Compass",
     "movement": 3,
     "strength": 16,
     "rangedStrength": 17,
     "cost": 100,
     "replaces": "Galleass",
-    "requiredTech": "Compass",
     "requiredBuilding": "Shipyard",
     "obsoleteTech": "Navigation",
     "upgradesTo": "Frigate",
@@ -338,12 +353,12 @@
     "name": "Lodja",
     "unitType": "Ranged Water",
     "uniqueTo": "Rus",
+    "requiredTech": "Compass",
     "movement": 3,
     "strength": 16,
     "rangedStrength": 17,
     "cost": 100,
     "replaces": "Galleass",
-    "requiredTech": "Compass",
     "requiredBuilding": "Shipyard",
     "obsoleteTech": "Navigation",
     "upgradesTo": "Frigate",
@@ -358,12 +373,12 @@
     "name": "Mór-Ghallóglach",
     "unitType": "Ranged Water",
     "uniqueTo": "Norse-Gaels",
+    "requiredTech": "Compass",
     "movement": 3,
     "strength": 16,
     "rangedStrength": 17,
     "cost": 100,
     "replaces": "Galleass",
-    "requiredTech": "Compass",
     "requiredBuilding": "Shipyard",
     "obsoleteTech": "Navigation",
     "upgradesTo": "Frigate",

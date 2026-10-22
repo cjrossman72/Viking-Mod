@@ -175,9 +175,11 @@
       "Destroyed when the city is captured",
       "[+20] Strength <for [Norse Gaels] units> <in tiles adjacent to [Norse Gaels] tiles>"
     ],
-    "civilopediaText": {
-      "text": "Massive earthen barriers, often with deeply sunken spiked logs, to protect Norse-Gael communities, especially along the coasts."
-    }
+    "civilopediaText": [
+      {
+        "text": "Massive earthen barriers, often with deeply sunken spiked logs, to protect Norse-Gael communities, especially along the coasts."
+      }
+    ]
   },
   {
     "name": "Skipsnaust Boathouse",

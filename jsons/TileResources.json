@@ -7,7 +7,7 @@
       "Forest",
       "Jungle"
     ],
-    "improvement": "Sawmill",
+    "improvement": "Lumber Mill",
     "uniques": [
       "Generated on every [25] tiles <in [{Forest} {Grassland}] tiles>",
       "Generated on every [20] tiles <in [{Forest} {Plains}] tiles>",
@@ -22,7 +22,6 @@
       "Land"
     ],
     "production": 1,
-    "improvement": "Lumber Mill",
     "uniques": [
       "Doesn't generate naturally"
     ]

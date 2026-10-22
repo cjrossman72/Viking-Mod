@@ -45,8 +45,8 @@
     "strength": 8,
     "cost": 40,
     "requiredTech": "Agriculture",
-    "obsoleteTech": "Metal Casting",
-    "upgradesTo": "Pikeman",
+    "obsoleteTech": "Steel",
+    "upgradesTo": "Longswordsman",
     "uniques": [
       "Ignores terrain cost",
       "No defensive terrain penalty"

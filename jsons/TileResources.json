@@ -19,7 +19,7 @@
     "name": "Wood",
     "resourceType": "Strategic",
     "terrainsCanBeFoundOn": [
-      "Land"
+      "Forest"
     ],
     "production": 1,
     "uniques": [

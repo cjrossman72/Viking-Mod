@@ -82,9 +82,11 @@
       "[+1 Food] from [Whale] tiles [in this city]"
     ],
     "requiredTech": "Construction",
-    "civilopediaText": {
-      "text": "A Scandinavian curing house for drying fish."
-    }
+    "civilopediaText": [
+      {
+        "text": "A Scandinavian curing house for drying fish."
+      }
+    ]
   },
   {
     "name": "Rök runestone",
@@ -115,11 +117,13 @@
       "food": 15
     },
     "requiredTech": "The Wheel",
-    "civilopediaText": {
-      "text": "Baðstofas were Viking age structures build over hot springs and served as places for hygiene, warmth and fresh water.",
-      "separator": true,
-      "text": "Baðstofas were common in Finland because the terrain had many hot springs."
-    }
+    "civilopediaText": [
+      {
+        "text": "Baðstofas were Viking age structures build over hot springs and served as places for hygiene, warmth and fresh water.",
+        "separator": true,
+        "text": "Baðstofas were common in Finland because the terrain had many hot springs."
+      }
+    ]
   },
   {
     "name": "Timber Ramparts",
@@ -135,9 +139,11 @@
       "[Shield Maiden] units gain the [Shield Wall II] promotion",
       "Consumes [2] [Wood]"
     ],
-    "civilopediaText": {
-      "text": "Viking defensive timber log walls eight to ten feet high with angled, spiked logs facing outward to prevent mounted units from jumping the wall."
-    }
+    "civilopediaText": [
+      {
+        "text": "Viking defensive timber log walls eight to ten feet high with angled, spiked logs facing outward to prevent mounted units from jumping the wall."
+      }
+    ]
   },
   {
     "name": "Fortified Burhs",
@@ -151,9 +157,11 @@
       "Destroyed when the city is captured",
       "[Saxons] Units adjacent to this city heal [5] HP per turn when healing"
     ],
-    "civilopediaText": {
-      "text": "Massive earthen barriers, often with a surrounding moat, to protect Saxon communities."
-    }
+    "civilopediaText": [
+      {
+        "text": "Massive earthen barriers, often with a surrounding moat, to protect Saxon communities."
+      }
+    ]
   },
   {
     "name": "Earthwork Quay",
@@ -183,9 +191,11 @@
       "Destroyed when the city is captured",
       "[{Your} {Water}] Units adjacent to this city heal [5] HP per turn when healing"
     ],
-    "civilopediaText": {
-      "text": "The Finns built these defence structures near to coast to protect their ships and to repel sea-faring invaders."
-    }
+    "civilopediaText": [
+      {
+        "text": "The Finns built these defence structures near to coast to protect their ships and to repel sea-faring invaders."
+      }
+    ]
   },
   {
     "name": "Ostrog Palisades",
@@ -199,9 +209,11 @@
       "Destroyed when the city is captured",
       "[{Your} {Land}] Units adjacent to this city heal [5] HP per turn when healing"
     ],
-    "civilopediaText": {
-      "text": "The Rus relied on these defensive barriers which were deeply sunk, pointed logs placed vertically and tied together with horizontal cross-beams."
-    }
+    "civilopediaText": [
+      {
+        "text": "The Rus relied on these defensive barriers which were deeply sunk, pointed logs placed vertically and tied together with horizontal cross-beams."
+      }
+    ]
   },
   {
     "name": "Trelleborg Fortress",

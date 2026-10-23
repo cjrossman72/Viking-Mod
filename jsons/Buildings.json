@@ -5,6 +5,9 @@
     "cityHealth": 50,
     "hurryCostModifier": 25,
     "requiredTech": "Mining",
+    "requiredNearbyImprovedResources": [
+      "Stone"
+    ],
     "uniques": [
       "Destroyed when the city is captured"
     ]
@@ -18,7 +21,8 @@
     "hurryCostModifier": 25,
     "uniques": [
       "Destroyed when the city is captured"
-    ]
+    ],
+    "requiredResource": "Wood"
   },
   {
     "name": "Sawmill",
@@ -32,7 +36,24 @@
     "uniques": [
       "Destroyed when the city is captured",
       "[+1 Production] <after discovering [Engineering]>",
-      "[+1 Production] from [Timber] tiles [in this city]"
+      "[+1 Production] from [Timber] tiles [in this city]",
+      "Provides [1] [Wood] <for every [{improved} {Timber}]> <in this city> <upon turn end> <every [10] turns>"
+    ]
+  },
+  {
+    "name": "Kiln",
+    "requiredTech": "Masonry",
+    "production": 1,
+    "cost": 125,
+    "requiredNearbyImprovedResources": [
+      "Clay"
+    ],
+    "hurryCostModifier": 25,
+    "uniques": [
+      "Destroyed when the city is captured",
+      "[+1 Production] <after discovering [Engineering]>",
+      "[+1 Production] from [Clay] tiles [in this city]",
+      "Provides [1] [Brick] <for every [{improved} {Clay}]> <in this city> <upon turn end> <every [10] turns>"
     ]
   },
   {
@@ -145,14 +166,14 @@
     "uniques": [
       "Destroyed when the city is captured",
       "All newly-trained [Shield Maiden] units [in all cities] receive the [Shield Wall II] promotion",
-      "[Shield Maiden] units gain the [Shield Wall II] promotion",
-      "Consumes [2] [Wood]"
+      "[Shield Maiden] units gain the [Shield Wall II] promotion"
     ],
     "civilopediaText": [
       {
         "text": "Viking defensive timber log walls eight to ten feet high with angled, spiked logs facing outward to prevent mounted units from jumping the wall."
       }
-    ]
+    ],
+    "requiredResource": "Wood"
   },
   {
     "name": "Fortified Burhs",
@@ -200,7 +221,8 @@
     "hurryCostModifier": 25,
     "uniques": [
       "Destroyed when the city is captured",
-      "[{Your} {Water}] Units adjacent to this city heal [5] HP per turn when healing"
+      "[{Your} {Water}] Units adjacent to this city heal [5] HP per turn when healing",
+      "Consumes [2] [Wood]"
     ],
     "civilopediaText": [
       {
@@ -218,7 +240,8 @@
     "hurryCostModifier": 25,
     "uniques": [
       "Destroyed when the city is captured",
-      "[{Your} {Land}] Units adjacent to this city heal [5] HP per turn when healing"
+      "[{Your} {Land}] Units adjacent to this city heal [5] HP per turn when healing",
+      "Consumes [2] [Wood]"
     ],
     "civilopediaText": [
       {
@@ -237,7 +260,8 @@
     "uniques": [
       "Destroyed when the city is captured",
       "All newly-trained [Shield Maiden] units [in all cities] receive the [Shield Wall III] promotion",
-      "[Shield Maiden] units gain the [Shield Wall III] promotion"
+      "[Shield Maiden] units gain the [Shield Wall III] promotion",
+      "Consumes [2] [Wood]"
     ]
   },
   {
@@ -251,7 +275,8 @@
     "uniques": [
       "Destroyed when the city is captured",
       "All newly-trained [Sword] units [in all cities] receive the [Formation I] promotion",
-      "[Sword] units gain the [Formation I] promotion"
+      "[Sword] units gain the [Formation I] promotion",
+      "Consumes [2] [Wood]"
     ]
   },
   {
@@ -264,7 +289,8 @@
     "hurryCostModifier": 25,
     "uniques": [
       "Destroyed when the city is captured",
-      "[+20]% City Strength from defensive buildings"
+      "[+20]% City Strength from defensive buildings",
+      "Consumes [2] [Wood]"
     ]
   },
   {
@@ -277,7 +303,8 @@
     "hurryCostModifier": 25,
     "uniques": [
       "Destroyed when the city is captured",
-      "[+20]% Strength for cities"
+      "[+20]% Strength for cities",
+      "Consumes [2] [Wood]"
     ]
   }
 ]

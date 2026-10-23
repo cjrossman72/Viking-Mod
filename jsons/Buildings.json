@@ -80,7 +80,7 @@
     "requiredTech": "Construction"
   },
   {
-    "name": "Rök runestone",
+    "name": "Rök Runestone",
     "requiredBuilding": "Monument",
     "requiredTech": "Masonry",
     "isWonder": true,
@@ -95,7 +95,7 @@
   },
   {
     "name": "Hjell",
-    "requiredTech": "Shipbuilding",
+    "requiredTech": "Sailing",
     "maintenance": 0,
     "requiredNearbyImprovedResources": [
       "Fish",
@@ -191,7 +191,7 @@
     ]
   },
   {
-    "name": "Skipsnaust Boathouse",
+    "name": "Skipsnaust Seawall",
     "uniqueTo": "Finns",
     "replaces": "Walls",
     "requiredTech": "Woodworking",

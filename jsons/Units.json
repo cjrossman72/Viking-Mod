@@ -182,24 +182,6 @@
     ]
   },
   {
-    "name": "Byrðingr",
-    "unitType": "Civilian Water",
-    "uniqueTo": "Vikings",
-    "replaces": "Cargo Ship",
-    "movement": 5,
-    "cost": 100,
-    "requiredTech": "Sailing"
-  },
-  {
-    "name": "Buscarl",
-    "unitType": "Civilian Water",
-    "uniqueTo": "Saxons",
-    "replaces": "Cargo Ship",
-    "movement": 4,
-    "cost": 100,
-    "requiredTech": "Sailing"
-  },
-  {
     "name": "Snekkja",
     "unitType": "Melee Water",
     "uniqueTo": "Vikings",

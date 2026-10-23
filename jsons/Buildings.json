@@ -37,7 +37,7 @@
       "Destroyed when the city is captured",
       "[+1 Production] <after discovering [Engineering]>",
       "[+1 Production] from [Timber] tiles [in this city]",
-      "Triggers a [Craft Wood] event <every [10] turns>"
+      "Provides [1] [Wood] <for every [{improved} {Timber}]> <in this city> <upon turn end> <every [10] turns>"
     ]
   },
   {

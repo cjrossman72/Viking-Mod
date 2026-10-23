@@ -31,8 +31,8 @@
     "hurryCostModifier": 25,
     "uniques": [
       "Destroyed when the city is captured",
-      "Provides [2] [Wood] <upon entering a new era>",
-      "[+1 Production] <after discovering [Engineering]>"
+      "[+1 Production] <after discovering [Engineering]>",
+      "[+1 Production] from [Timber] tiles [in this city]"
     ]
   },
   {

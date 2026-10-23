@@ -44,8 +44,7 @@
     "uniques": [
       "[+1 Production] <after discovering [Engineering]>",
       "Provides [2] [Wood] <upon constructing [Production]>",
-      "Pillaging this improvement yields approximately [+10 Gold]",
-      "Provides [3] [Wood]"
+      "Pillaging this improvement yields approximately [+10 Gold]"
     ],
     "shortcutKey": "L"
   }

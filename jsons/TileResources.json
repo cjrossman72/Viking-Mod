@@ -10,8 +10,10 @@
     "improvement": "Lumber mill",
     "uniques": [
       "Generated with weight [100] <in [Forest] Regions>",
-      "Generated with weight [60] <in [Jjngle] Regions>",
-      "Generated with weight [45] <in [Hybrid] Regions>"
+      "Generated with weight [60] <in [Jungle] Regions>",
+      "Generated with weight [45] <in [Hybrid] Regions>",
+      "Generated on every [20] tiles <in [Forest] tiles> ",
+      "Generated on every [40] tiles <in [Jungle] tiles> "
     ]
   },
   {

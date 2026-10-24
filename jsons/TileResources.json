@@ -17,23 +17,6 @@
     ]
   },
   {
-    "name": "Amber",
-    "resourceType": "Luxury",
-    "gold": 2,
-    "terrainsCanBeFoundOn": [
-      "Forest",
-      "Jungle"
-    ],
-    "improvement": "Quarry",
-    "uniques": [
-      "Generated with weight [30] <in [Forest] Regions>",
-      "Generated with weight [30] <in [Jungle] Regions>",
-      "Generated with weight [45] <in [Hybrid] Regions>",
-      "Generated on every [50] tiles <in [Forest] tiles> ",
-      "Generated on every [25] tiles <in [Jungle] tiles> "
-    ]
-  },
-  {
     "name": "Wood",
     "resourceType": "Strategic",
     "terrainsCanBeFoundOn": [

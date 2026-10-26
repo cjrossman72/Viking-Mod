@@ -32,33 +32,5 @@
       "Removes removable features when built",
       "Will not be replaced by automated units"
     ]
-  },
-  {
-    "name": "Lumberjack",
-    "terrainsCanBeBuiltOn": [
-      "Forest"
-    ],
-    "production": 1,
-    "turnsToBuild": 7,
-    "techRequired": "Woodworking",
-    "uniques": [
-      "[+1 Production] <after discovering [Engineering]>",
-      "Provides [2] [Wood] <upon constructing [Production]>",
-      "Pillaging this improvement yields approximately [+10 Gold]",
-      "Does not need removal of [Forest]",
-      "Does not need removal of [Jungle]"
-    ],
-    "shortcutKey": "L"
-  },
-  {
-    "name": "Quarry",
-    "turnsToBuild": 8,
-    "techRequired": "Masonry",
-    "uniques": [
-      "[+1 Production] <after discovering [Chemistry]>",
-      "Can only be built to improve a resource",
-      "Pillaging this improvement yields approximately [+20 Gold]"
-    ],
-    "shortcutKey": "Q"
   }
 ]

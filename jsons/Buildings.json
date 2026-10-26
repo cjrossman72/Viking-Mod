@@ -25,38 +25,6 @@
     "requiredResource": "Wood"
   },
   {
-    "name": "Sawmill",
-    "requiredTech": "Masonry",
-    "production": 1,
-    "cost": 125,
-    "requiredNearbyImprovedResources": [
-      "Timber"
-    ],
-    "hurryCostModifier": 25,
-    "uniques": [
-      "Destroyed when the city is captured",
-      "[+1 Production] <after discovering [Engineering]>",
-      "[+1 Production] from [Timber] tiles [in this city]",
-      "Triggers a [Craft Wood] event <every [10] turns>"
-    ]
-  },
-  {
-    "name": "Kiln",
-    "requiredTech": "Masonry",
-    "production": 1,
-    "cost": 125,
-    "requiredNearbyImprovedResources": [
-      "Clay"
-    ],
-    "hurryCostModifier": 25,
-    "uniques": [
-      "Destroyed when the city is captured",
-      "[+1 Production] <after discovering [Engineering]>",
-      "[+1 Production] from [Clay] tiles [in this city]",
-      "Provides [1] [Brick] <for every [{improved} {Clay}]> <in this city> <upon turn end> <every [10] turns>"
-    ]
-  },
-  {
     "name": "Tannery",
     "requiredTech": "Trapping",
     "production": 1,
@@ -71,19 +39,6 @@
       "[+1 Gold] from [Furs] tiles [in this city]",
       "[+1 Gold] from [Deer] tiles [in this city]",
       "[+1 Gold] from [Bison] tiles [in this city]"
-    ]
-  },
-  {
-    "name": "Shipyard",
-    "requiredTech": "Shipbuilding",
-    "cost": 125,
-    "hurryCostModifier": 25,
-    "uniques": [
-      "Destroyed when the city is captured",
-      "Enables [Explorer] units to enter ocean tiles",
-      "All newly-trained [{Military} {Water}] units [in all cities] receive the [Boarding Party I] promotion",
-      "[{Military} {Water}] units gain the [Boarding Party I] promotion",
-      "Must be next to [Coast]"
     ]
   },
   {

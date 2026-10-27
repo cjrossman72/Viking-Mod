@@ -51,7 +51,8 @@
     "hurryCostModifier": 25,
     "uniques": [
       "[+2 Food] from [Bison] tiles [in this city]",
-      "[+1 Food] from [Cattle] tiles [in this city]"
+      "[+1 Food] from [Cattle] tiles [in this city]",
+      "[+1 Food] from [Deer] tiles [in this city]"
     ],
     "requiredTech": "Construction"
   },
@@ -75,11 +76,13 @@
     "maintenance": 0,
     "requiredNearbyImprovedResources": [
       "Fish",
-      "Whales"
+      "Whales",
+      "Crab"
     ],
     "hurryCostModifier": 25,
     "uniques": [
       "[+2 Food] from [Fish] tiles [in this city]",
+      "[+1 Gold] from [Crab] tiles [in this city]",
       "[+1 Food] from [Whale] tiles [in this city]"
     ],
     "civilopediaText": [
@@ -127,8 +130,7 @@
       {
         "text": "Viking defensive timber log walls eight to ten feet high with angled, spiked logs facing outward to prevent mounted units from jumping the wall."
       }
-    ],
-    "requiredResource": "Wood"
+    ]
   },
   {
     "name": "Fortified Burhs",
@@ -176,8 +178,7 @@
     "hurryCostModifier": 25,
     "uniques": [
       "Destroyed when the city is captured",
-      "[{Your} {Water}] Units adjacent to this city heal [5] HP per turn when healing",
-      "Consumes [2] [Wood]"
+      "[{Your} {Water}] Units adjacent to this city heal [5] HP per turn when healing"
     ],
     "civilopediaText": [
       {
@@ -215,8 +216,7 @@
     "uniques": [
       "Destroyed when the city is captured",
       "All newly-trained [Shield Maiden] units [in all cities] receive the [Shield Wall III] promotion",
-      "[Shield Maiden] units gain the [Shield Wall III] promotion",
-      "Consumes [2] [Wood]"
+      "[Shield Maiden] units gain the [Shield Wall III] promotion"
     ]
   },
   {
@@ -230,8 +230,7 @@
     "uniques": [
       "Destroyed when the city is captured",
       "All newly-trained [Sword] units [in all cities] receive the [Formation I] promotion",
-      "[Sword] units gain the [Formation I] promotion",
-      "Consumes [2] [Wood]"
+      "[Sword] units gain the [Formation I] promotion"
     ]
   },
   {
@@ -258,8 +257,7 @@
     "hurryCostModifier": 25,
     "uniques": [
       "Destroyed when the city is captured",
-      "[+20]% Strength for cities",
-      "Consumes [2] [Wood]"
+      "[+20]% Strength for cities"
     ]
   }
 ]

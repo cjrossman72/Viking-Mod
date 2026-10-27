@@ -278,8 +278,7 @@
     "cost": 150,
     "upgradesTo": "Destroyer",
     "uniques": [
-      "[5] Sight",
-      "Consumes [2] [Timber]"
+      "[5] Sight"
     ],
     "promotions": [
       "Landing Party",
@@ -306,7 +305,6 @@
     "upgradesTo": "Frigate",
     "uniques": [
       "Can move after attacking",
-      "Consumes [2] [Timber]",
       "Cannot enter ocean tiles"
     ],
     "attackSound": "arrow"
@@ -326,8 +324,7 @@
     "upgradesTo": "Frigate",
     "uniques": [
       "Can move after attacking",
-      "[+20]% Strength bonus for [{Your} {Water}] units within [2] tiles",
-      "Consumes [2] [Timber]"
+      "[+20]% Strength bonus for [{Your} {Water}] units within [2] tiles"
     ],
     "attackSound": "arrow"
   },
@@ -366,8 +363,7 @@
     "upgradesTo": "Frigate",
     "uniques": [
       "Can move after attacking",
-      "[4] Movement <in [Coast] tiles>",
-      "Consumes [2] [Timber]"
+      "[4] Movement <in [Coast] tiles>"
     ],
     "attackSound": "arrow"
   }

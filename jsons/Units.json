@@ -343,8 +343,7 @@
     "upgradesTo": "Frigate",
     "uniques": [
       "Can move after attacking",
-      "[4] Movement <in [Coast] tiles>",
-      "Consumes [2] [Timber]"
+      "[4] Movement <in [Coast] tiles>"
     ],
     "attackSound": "arrow"
   },

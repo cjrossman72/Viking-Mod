@@ -21,8 +21,7 @@
     "hurryCostModifier": 25,
     "uniques": [
       "Destroyed when the city is captured"
-    ],
-    "requiredResource": "Wood"
+    ]
   },
   {
     "name": "Tannery",
@@ -196,8 +195,7 @@
     "hurryCostModifier": 25,
     "uniques": [
       "Destroyed when the city is captured",
-      "[{Your} {Land}] Units adjacent to this city heal [5] HP per turn when healing",
-      "Consumes [2] [Wood]"
+      "[{Your} {Land}] Units adjacent to this city heal [5] HP per turn when healing"
     ],
     "civilopediaText": [
       {
@@ -243,8 +241,7 @@
     "hurryCostModifier": 25,
     "uniques": [
       "Destroyed when the city is captured",
-      "[+20]% City Strength from defensive buildings",
-      "Consumes [2] [Wood]"
+      "[+20]% City Strength from defensive buildings"
     ]
   },
   {

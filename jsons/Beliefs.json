@@ -20,8 +20,11 @@
     "name": "Sacred Mære",
     "type": "Pantheon",
     "uniques": [
-      "[+1 Food, +1 Faith] from every [Fishing Boats]",
-      "[+1 Science] from every [Coast] tiles <in cities connected to the capital>"
+      "[+1 Faith] from every [Coast] tiles <in cities connected to the capital>",
+      "[+1 Food] from every [Fish] tiles",
+      "[+1 Food, +1 Gold] from every [Crab] tiles",
+      "[+1 Gold, +1 Science] from every [Whales] tiles",
+      "[+1 Culture, +1 Happiness] from every [Pearls] tiles"
     ]
   },
   {
